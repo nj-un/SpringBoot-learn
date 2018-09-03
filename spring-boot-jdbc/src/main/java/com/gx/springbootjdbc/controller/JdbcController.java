@@ -14,7 +14,7 @@ import java.util.List;
  * @date: 2018/8/31
  */
 @RestController
-@RequestMapping
+@RequestMapping("/users")
 public class JdbcController {
 
     private static final Logger log = LoggerFactory.getLogger(JdbcController.class);
