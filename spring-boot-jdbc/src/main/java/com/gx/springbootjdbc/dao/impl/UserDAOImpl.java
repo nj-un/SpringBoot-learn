@@ -16,12 +16,8 @@ import java.util.List;
 @Repository
 public class UserDAOImpl implements UserDAO {
 
-    private final JdbcTemplate jdbcTemplate;
-
     @Autowired
-    public UserDAOImpl(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
-    }
+    private JdbcTemplate jdbcTemplate;
 
     @Override
     public List<User> getUserList() {
