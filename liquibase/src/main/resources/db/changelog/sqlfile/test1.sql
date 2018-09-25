@@ -1,1 +1,1 @@
-INSERT INTO `person` (`id`, `first_name`, `last_name`) VALUES ('2', '哈哈', '呵呵');
+INSERT INTO `t_user` (`id`, `username`, `password`) VALUES ('2', '哈哈', '123');
