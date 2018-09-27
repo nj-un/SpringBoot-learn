@@ -21,10 +21,12 @@ public class User {
         this.password = password;
     }
 
-    public User(Long id, String username, String password) {
+    public User(Long id, String username, String password, String roleName, boolean locked) {
         this.id = id;
         this.username = username;
         this.password = password;
+        this.roleName = roleName;
+        this.locked = locked;
     }
 
     public Long getId() {
